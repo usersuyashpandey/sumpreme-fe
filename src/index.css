@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+body {
+  font-family: 'manrope';
+}
+
+@layer utilities {
+  ::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: black;
+    border-radius: 10px;
+  }
+
+  ::-webkit-scrollbar-button {
+    display: none;
+  }
+}
+
+.Toastify__toast {
+  background: #006abc !important;
+  color: white !important;
+  min-height: 100px !important;
+  display: flex;
+  justify-content: center;
+}
+
+.Toastify__progress-bar--animated {
+  background: #ffffff !important;
+  opacity: 1 !important;
+}
+
+.Toastify__toast-icon svg {
+  fill: #ffffff;
+}
+
+.Toastify__close-button--light {
+  color: #ffffff !important;
+  opacity: 0.7 !important;
+}
